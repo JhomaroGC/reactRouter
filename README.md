@@ -1,4 +1,33 @@
 # reactRouter
 Aplicacion web de una sola página de Router
 
-dependencia para los router: npm i react-router-dom
+Dependencias necesarias
+- npm i react-router-dom
+
+
+
+1. Crear los componentes
+	Por ejemplo:
+		-Header
+		-Navegación
+		-Footer
+2. Crear las Pages (Son las vistas dinámicas que se verán en la sección Outlet)
+	Por ejemplo:
+		-Contenido de Inicio
+		-Formulario de Contacto
+		-Lista productos
+		-Lista de Ventas
+3. Crear la Layout
+	-Importar los componentes
+	-Importar el Outlet
+	-Estructurar el layout:
+		-Header
+		-Navegación
+		-Outlet (Dinámicamente cambiará al contenido, por eso es SPA)
+		-Footer
+4. Crear configuración en App para renderizar
+	
+	-Importar los manejadores de Rutas
+	-Importar Layout
+	-Importar Pages
+	-Definir las rutas de la aplicación (Publicas o Privadas)
