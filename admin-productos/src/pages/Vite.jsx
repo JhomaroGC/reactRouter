@@ -7,16 +7,8 @@ const Vite = ({count,setCount}) => {
 
   return (
     <div className="App">
-        <strong>Hola</strong>
-        <div>
-          <a href="https://vitejs.dev" target="_blank">
-            <img src="/vite.svg" className="logo" alt="Vite logo" />
-          </a>
-          <a href="https://reactjs.org" target="_blank">
-            <img src={reactLogo} className="logo react" alt="React logo" />
-          </a>
-        </div>
-        <h1>Vite + React</h1>
+
+        <h1>Esta es la página de inicio del proyecto de clase</h1>
         <div className="card">
           <button onClick={() => setCount((count) => count + 1)}>
             count is {count}
